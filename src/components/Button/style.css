@@ -1,0 +1,56 @@
+.btView {
+  display: flex;
+  background-color: transparent;
+  border: transparent;
+  width: 170px;
+  height: 40px;
+  margin: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.btViewText {
+  color: rgba(244, 242, 250, 1);
+  font-family: Montserrat;
+  font-size: 18px;
+  text-align: center;
+}
+.arrowIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.btNext{
+  display: flex;
+  background-color: transparent;
+  border: transparent;
+  width: 170px;
+  padding: 0%;
+  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btPrev {
+  display: flex;
+  background-color: transparent;
+  border: transparent;
+  width: 170px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+.footCenterBlock {
+  height: 147px;
+  bottom: 0px;
+  position: absolute;
+  width: 1248.62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

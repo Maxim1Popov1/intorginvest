@@ -1,0 +1,164 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  background: #100fa8;
+}
+.dropdown {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  margin: 0 5px;
+  --bs-btn-color: #f8f9fa !important;
+  --bs-btn-bg: rgba(244, 242, 250, 1);
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: #100fa8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logoIm {
+  width: 123.33px;
+  height: 40px;
+}
+
+.bt-nav {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  margin: 0 5px;
+  background-color: transparent !important;
+  border: transparent !important;
+}
+.bt-con {
+  background-color: transparent !important;
+  width: 182px;
+  height: 56px;
+  border-color: rgba(244, 242, 250, 1) !important;
+  border-radius: 4px !important;
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+}
+.bt-con2 {
+  background-color: #ffffff !important;
+  border-radius: 4px !important;
+  color: rgba(0, 0, 51, 1) !important;
+  width: 188px;
+  height: 56px;
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+}
+
+.headerPanel {
+  display: flex;
+  background-color: #100fa8;
+  height: 840px;
+  width: 100%;
+  padding: 0 147px;
+}
+
+.imgBusiness {
+  position: absolute;
+  width: 690px;
+  height: 772px;
+  right: 14px;
+  bottom: 0;
+}
+
+.headerCenterBlock {
+  width: 610px;
+  height: 545px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerCenterButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.headerCenterText {
+  width: 607px;
+  height: 252px;
+  color: #ffffff;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+}
+
+.headerCenterAchievements {
+  display: flex;
+  color: #ffffff;
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  justify-content: space-between;
+}
+.achievBlock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 180px;
+}
+.achievNum {
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  line-height: 48px !important;
+}
+
+.achievText {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.solutionsPanel {
+  padding: 0 147px;
+  height: 900px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.solutionTitle {
+  height: 56px;
+  font-family: "Tiempos Headline" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.solutions {
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
