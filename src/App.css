@@ -85,14 +85,9 @@
   right: 0;
 }
 .imgBusiness {
-  /* max-width: 690px; */
-  height: 100%;
-  width: 100%;
-  /* width: 690px; */
-  /* max-height: 772px; */
+  height: 772px;
+  width: 690px;
   object-fit:contain;
-  /* width: 690px; */
-  /* height: 100%; */
 }
 
 .headerCenterBlock {
