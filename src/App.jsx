@@ -8,7 +8,11 @@ import business from "../src/icons/business.png";
 import carousel from "../src/icons/carousel.png";
 import { NextButton, PrevButton } from "./components/Button/NextButton.jsx";
 import Box from "./components/Box";
-
+import AWS from '../src/icons/icon/footer/AWS.png'
+import hubspot from '../src/icons/icon/footer/hubspot.png'
+import image27 from '../src/icons/icon/footer/image27.png'
+import image29 from '../src/icons/icon/footer/image29.png'
+import image33 from '../src/icons/icon/footer/image33.png'
 import "./App.css";
 
 function App() {
@@ -91,7 +95,14 @@ function App() {
       </div>
       <div className="footerBox">
         <div className="footerTitel">Somos Partners</div>
-        <div className="footerIcon"></div>
+        <div className="footerIcon">
+
+        <img className="imgimage29" alt="image29" src={image29} />
+        <img className="imgimage27" alt="image27" src={image27} />
+        <img className="imgimage33" alt="image33" src={image33} />
+        <img className="imghubspot" alt="hubspot" src={hubspot} />
+        <img className="imgAWS" alt="AWS" src={AWS} />
+        </div>
       </div>
     </div>
   );

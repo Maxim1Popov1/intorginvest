@@ -11,6 +11,9 @@ import frame658 from "../src/icons/icon/Frame658.png";
 import group600 from "../src/icons/icon/Group600.png";
 import video_chat_line from "../src/icons/icon/video-chat-line.png";
 
+
+
+
 export let serviceItems = [
   {
     icon: laptop,

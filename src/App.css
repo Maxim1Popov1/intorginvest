@@ -25,6 +25,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .navbar {
@@ -72,7 +73,7 @@
   background-color: #100fa8;
   height: 840px;
   width: 100%;
-  padding: 0 147px;
+  padding: 128px 147px 0 147px;
 }
 
 .imgContainer {
@@ -162,7 +163,7 @@
 }
 
 .solutionsPanel {
-  padding: 0 147px;
+  padding: 128px 147px 0 147px;
   height: 900px;
   background-color: #ffff;
   display: flex;
@@ -188,19 +189,30 @@
   flex-wrap: wrap;
 }
 
-.footerBox {
-  height: 151.23px;
+.footerBox { 
+  
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+ 
   background-color: #ffffff;
+  padding: 128px 147px 110px 147px;
 }
 
-.footerTitel {
-  height: 56px;
+.footerTitel{
+  padding-bottom: 44px;
   font-family: "Tiempos Headline" !important;
   font-style: normal !important;
   font-weight: 700 !important;
+
 
   font-size: 48px;
   line-height: 56px;
   text-align: center;
   margin-bottom: 20px;
+}
+.footerIcon {
+  display: flex;
+  
+  justify-content: space-between;
 }
