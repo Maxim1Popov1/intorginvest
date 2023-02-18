@@ -1,12 +1,10 @@
 .boxComponent {
   margin: 18px 0;
+  padding: 16px 25px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  
   align-items: center;
-  
-
   width: 32%;
   height: 206px;
   background: #ffffff;
@@ -16,6 +14,29 @@
   border-bottom: 7px solid #100fa8;
 }
 
+.boxTex {
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-weight: 500;
+}
+.title {
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-weight: 500;
+}
+.boxIcon {
+  width: 32px;
+  height: 32px;
+}
+
 .boxTitle {
+  width: 100%;
+  
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
   display: flex;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: flex-start;
 }
