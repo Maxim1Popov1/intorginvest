@@ -1,4 +1,5 @@
 import React from "react";
+import BoxButton from '../Button/BoxButton'
 import "./style.css";
 
 function Box({ icon, title, description}) {
@@ -10,7 +11,7 @@ function Box({ icon, title, description}) {
          <div className="title">{title}</div>
       </div>
       <div className="boxText">{description}</div>
-      
+      <BoxButton/>
     </div>
   );
 }
