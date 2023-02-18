@@ -24,3 +24,18 @@
 .fa {
   margin-left: 5px;
 }
+
+
+.listIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.dropdown-item {
+  vertical-align: middle;
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+}
