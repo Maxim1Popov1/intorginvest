@@ -27,6 +27,13 @@
   align-items: center;
 }
 
+@media (max-width: 820px) {
+  .header {
+    width: 100%;
+    height: 56px;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -35,6 +42,13 @@
 .logoIm {
   width: 123.33px;
   height: 40px;
+}
+
+@media (max-width: 820px) {
+  .logoIm {
+    width: 55px;
+    height: 18px;
+  }
 }
 
 .bt-nav {
@@ -56,15 +70,30 @@
   font-style: normal !important;
   font-weight: 700 !important;
 }
+@media (max-width: 820px) {
+  .bt-con {
+    width: 123px;
+    height: 36px;
+  }
+}
+
 .bt-con2 {
   background-color: #ffffff !important;
   border-radius: 4px !important;
+  border-color: transparent !important;
   color: rgba(0, 0, 51, 1) !important;
   width: 188px;
   height: 56px;
   font-family: "Montserrat" !important;
   font-style: normal !important;
   font-weight: 700 !important;
+}
+
+@media (max-width: 820px) {
+  .bt-con2 {
+    width: 140px;
+    height: 40px;
+  }
 }
 
 .headerPanel {
@@ -76,6 +105,13 @@
   padding: 128px 147px 0 147px;
 }
 
+@media (max-width: 820px) {
+  .headerPanel {
+    height: 560px;
+    padding: 40px 16px 0 16px;
+  }
+}
+
 .imgContainer {
   height: 100%;
   display: flex;
@@ -85,6 +121,13 @@
   bottom: 0;
   right: 0;
 }
+
+@media (max-width: 820px) {
+  .imgContainer {
+    max-height: 242.92px;
+  }
+}
+
 .imgBusiness {
   width: 100%;
   display: block;
@@ -100,13 +143,26 @@
   z-index: 1;
 }
 
+@media (max-width: 820px) {
+  .headerCenterBlock {
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 56px;
+  }
+}
+
 .headerCenterButtons {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   z-index: 1;
 }
-
+@media (max-width: 820px) {
+  .headerCenterButtons {
+    justify-content: space-between;
+  }
+}
 .headerCenterText {
   width: 607px;
   height: 252px;
@@ -117,6 +173,16 @@
   font-weight: 600;
   font-size: 52px;
   line-height: 63px;
+}
+
+@media (max-width: 820px) {
+  .headerCenterText {
+    height: 128px;
+    width: 288px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .footCenterBlock {
@@ -131,7 +197,15 @@
   justify-content: space-between;
   align-items: center;
 }
-
+@media (max-width: 820px) {
+  .footCenterBlock {
+    height: 56px;
+    padding: 0 16px;
+  }
+  .imgcarousel {
+    height: 4px;
+  }
+}
 .headerCenterAchievements {
   display: flex;
   color: #ffffff;
@@ -139,18 +213,30 @@
   font-style: normal !important;
   justify-content: space-between;
 }
+@media (max-width: 820px) {
+  .headerCenterAchievements {
+    height: 245px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 .achievBlock {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 180px;
 }
 .achievNum {
   font-weight: 700 !important;
   font-size: 40px !important;
   line-height: 48px !important;
 }
-
+@media (max-width: 820px) {
+  .achievNum {
+    font-size: 24px !important;
+    line-height: 24px !important;
+  }
+}
 .achievText {
   display: flex;
 
@@ -158,16 +244,27 @@
   font-size: 16px;
   line-height: 20px;
 }
-
+@media (max-width: 820px) {
+  .achievText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 .solutionsPanel {
   padding: 128px 147px 0 147px;
   height: 900px;
   background-color: #ffff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
-
+@media (max-width: 820px) {
+  .solutionsPanel {
+    height: 700px;
+    padding: 64px 16px;
+    align-items: center;
+  }
+}
 .solutionTitle {
   height: 56px;
   font-family: "Tiempos Headline" !important;
@@ -180,10 +277,26 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 820px) {
+  .solutionTitle {
+    font-weight: 500 !important;
+    width: 217px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 64px;
+  }
+}
+
 .solutions {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+@media (max-width: 820px) {
+  .solutions {
+    justify-content: space-between;
+  }
 }
 
 .footerBox {
@@ -193,6 +306,13 @@
 
   background-color: #ffffff;
   padding: 128px 147px 110px 147px;
+}
+
+@media (max-width: 820px) {
+  .footerBox {
+    justify-content: space-between;
+    padding: 64px 16px;
+  }
 }
 
 .footerTitel {
@@ -206,8 +326,32 @@
   text-align: center;
   margin-bottom: 20px;
 }
+@media (max-width: 820px) {
+  .footerTitel {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
 .footerIcon {
   display: flex;
-
   justify-content: space-between;
+}
+@media (max-width: 820px) {
+  .footerIcon {
+    overflow: scroll;
+  }
+}
+.image {
+}
+@media (max-width: 820px) {
+  .image {
+    height: 32px;
+    width: 125.61px;
+    margin-right: 32px;
+    
+  }
+}
+.burgerIcon {
+  height: 24px;
+  width: 24px;
 }
