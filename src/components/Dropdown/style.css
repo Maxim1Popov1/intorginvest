@@ -6,6 +6,21 @@
   line-height: 24px;
 
   background-color: transparent !important;
-  border-color: transparent !important; 
-  display: flex; 
+  border-color: transparent !important;
+  display: flex;
+}
+
+.toggle {
+  color: #f4f2fa;
+  text-decoration: none;
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px;
+  margin: 0 5px;
+  padding: 6px 12px;
+}
+
+.fa {
+  margin-left: 5px;
 }
