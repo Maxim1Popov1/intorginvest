@@ -87,6 +87,10 @@ function App() {
           })}
         </div>
       </div>
+      <div className="footerBox">
+        <div className="footerTitel">Somos Partners</div>
+        <div className="footerIcon"></div>
+      </div>
     </div>
   );
 }
