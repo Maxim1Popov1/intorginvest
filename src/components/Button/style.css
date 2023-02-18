@@ -42,15 +42,4 @@
   padding: 0%;
 }
 
-.footCenterBlock {
-  height: 147px;
-  bottom: 0px;
-  position: absolute;
-  width: 1248.62px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 

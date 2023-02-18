@@ -75,14 +75,22 @@
   padding: 0 147px;
 }
 
-.imgBusiness {
-  position: absolute;
-  width: 690px;
+.imgContainer {
   height: 772px;
-  right: 14px;
-  bottom: 0; 
+  width: 690px;
+  position: absolute;
+  bottom: 0;
   right: 0;
-  
+}
+.imgBusiness {
+  /* max-width: 690px; */
+  height: 100%;
+  width: 100%;
+  /* width: 690px; */
+  /* max-height: 772px; */
+  object-fit:contain;
+  /* width: 690px; */
+  /* height: 100%; */
 }
 
 .headerCenterBlock {
@@ -111,6 +119,19 @@
   font-weight: 600;
   font-size: 52px;
   line-height: 63px;
+}
+
+.footCenterBlock {
+  height: 147px;
+  bottom: 0px;
+  padding: 0 147px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headerCenterAchievements {
@@ -162,18 +183,17 @@
 }
 
 .solutions {
-  
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.footerBox { 
+.footerBox {
   height: 151.23px;
   background-color: #ffffff;
 }
 
-.footerTitel{
+.footerTitel {
   height: 56px;
   font-family: "Tiempos Headline" !important;
   font-style: normal !important;

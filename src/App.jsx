@@ -33,7 +33,9 @@ function App() {
       </div>
 
       <div className="headerPanel">
+        <div className='imgContainer'>
         <img className="imgBusiness" alt="business" src={business} />
+        </div>
         <div className="headerCenterBlock">
           <div className="headerCenterText">
             Unimos la data y el diseño centrado en el usuario para obtener
@@ -63,6 +65,7 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
           <div className="footCenterBlock">
             <PrevButton />
             <div className="carousel">
@@ -70,7 +73,6 @@ function App() {
             </div>
             <NextButton />
           </div>
-        </div>
       </div>
       <div className="solutionsPanel">
         <div className="solutionTitle">Contamos con soluciones en</div>
