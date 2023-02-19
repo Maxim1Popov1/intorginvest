@@ -10,6 +10,7 @@ import business from "../src/icons/business.png";
 import carousel from "../src/icons/carousel.png";
 import { NextButton, PrevButton } from "./components/Button/NextButton.jsx";
 import Box from "./components/Box";
+import Menu from "./components/Menu";
 import AWS from "../src/icons/icon/footer/AWS.png";
 import hubspot from "../src/icons/icon/footer/hubspot.png";
 import image27 from "../src/icons/icon/footer/image27.png";
@@ -46,6 +47,8 @@ function App() {
           Contáctanos
         </Button>
       </div>
+
+      <Menu/>
 
       <div className="headerPanel">
         <div className="imgContainer">

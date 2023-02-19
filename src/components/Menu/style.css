@@ -1,0 +1,93 @@
+.menuContainer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: #ffffff;
+  z-index: 999;
+}
+.mobileHead {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+.menuLogo {
+  height: 18px;
+  width: 55px;
+}
+.menuClose {
+  width: 13.71px;
+  height: 13.35px;
+}
+.card {
+  border: none !important;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 16px;
+  /* border-bottom: 1px solid #CECFFB; */
+}
+/* .card-body::after {
+    content: '';
+    flex: 1;
+    margin-left: 1rem;
+    height: 1px;
+    background-color: #000;
+} */
+.card-body:hover {
+  background-color: #f4f2fa;
+  align-items: end;
+}
+.cardIcon {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+.cardText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.card-header {
+  border-bottom: none !important;
+  background-color: transparent !important;
+  padding: 12px 16px !important;
+}
+.toggleButton {
+  background-color: transparent;
+  border: none;
+  color: #100fa8;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0;
+}
+.toggleArrow {
+  height: 24px;
+  width: 24px;
+}
+.menuButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.menuBtn {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  background-color: transparent !important;
+  border: transparent !important;
+  color: #100fa8 !important;
+  padding: 12px 16px !important;
+}
