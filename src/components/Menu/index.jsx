@@ -12,16 +12,10 @@ import close from "../../icons/icon/Close.png";
 import "./style.css";
 
 function ContextAwareToggle({ children, eventKey, callback }) {
-  console.log("eventKey :>> ", eventKey);
-  // const { activeEventKey } = useContext(AccordionContext);
-
   const decoratedOnClick = useAccordionButton(
     eventKey,
     () => callback && callback(eventKey)
   );
-
-  // const isCurrentEventKey = activeEventKey === eventKey;
-
   return (
     <>
       <button type="button" className="toggleButton" onClick={decoratedOnClick}>
@@ -32,12 +26,12 @@ function ContextAwareToggle({ children, eventKey, callback }) {
   );
 }
 
-function Menu() {
+function Menu({closeMenu}) {
   return (
     <div className="menuContainer">
       <div className="mobileHead">
         <img className="menuLogo" alt="logo" src={logo} />
-        <div>
+        <div onClick={closeMenu}>
           <img className="menuClose" alt="close" src={close} />
         </div>
       </div>

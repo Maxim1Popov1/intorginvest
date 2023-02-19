@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { useMediaQuery } from "react-responsive";
 
@@ -20,15 +20,29 @@ import burger from "../src/icons/icon/burger.png";
 import "./App.css";
 
 function App() {
+  const [isMenuOpen, changeIsMenuOpen] = useState(false);
+  console.log('isMenuOpen :>> ', isMenuOpen);
   const isMobile = useMediaQuery({
     query: "(max-width: 820px)",
   });
+
+  const closeMenu = () => {
+    changeIsMenuOpen(false);
+  };
+
+  const openMenu = () => {
+    changeIsMenuOpen(true);
+  };
 
   console.log("isMobile :>> ", isMobile);
   return (
     <div className="main">
       <div className="header">
-        {isMobile && <img className="burgerIcon" src={burger} alt="burger" />}
+        {isMobile && (
+          <div onClick={openMenu}>
+            <img className="burgerIcon" src={burger} alt="burger" />
+          </div>
+        )}
         <img className="logoIm" src={logo} alt="Logo" />
         {!isMobile && (
           <div className="navbar">
@@ -48,7 +62,7 @@ function App() {
         </Button>
       </div>
 
-      <Menu/>
+      {isMenuOpen && <Menu closeMenu={closeMenu} />}
 
       <div className="headerPanel">
         <div className="imgContainer">
@@ -66,17 +80,26 @@ function App() {
             <ArrowViewButton />
           </div>
           <div className="headerCenterAchievements">
-            <div className="achievBlock" style={{width:isMobile?'82px':'180px'}}>
+            <div
+              className="achievBlock"
+              style={{ width: isMobile ? "82px" : "180px" }}
+            >
               <div className="achievNum">21</div>
               <div className="achievText">años de experiencia</div>
             </div>
-            <div className="achievBlock" style={{width:isMobile?'147px':'180px'}}>
+            <div
+              className="achievBlock"
+              style={{ width: isMobile ? "147px" : "180px" }}
+            >
               <div className="achievNum">+100</div>
               <div className="achievText">
                 empresas en más de 15 sectores distintos
               </div>
             </div>
-            <div className="achievBlock" style={{width:isMobile?'93px':'180px'}}>
+            <div
+              className="achievBlock"
+              style={{ width: isMobile ? "93px" : "180px" }}
+            >
               <div className="achievNum">+800</div>
               <div className="achievText">
                 proyectos ejecutados en los últimos 5 años
