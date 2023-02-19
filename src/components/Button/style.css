@@ -18,7 +18,8 @@
 
 .btViewText {
   color: rgba(244, 242, 250, 1);
-  font-family: Montserrat;
+  font-family: "Montserrat" !important;
+  font-weight: 700 !important;
   font-size: 18px;
   text-align: center;
 }
@@ -80,6 +81,7 @@
   font-family: Montserrat;
   font-size: 18px;
   text-align: center;
+  font-weight: 500;
 }
 @media (max-width: 820px) {
   .btBoxText {
